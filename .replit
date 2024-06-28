@@ -1,6 +1,5 @@
-run = "cowsay Configure me!"
-entrypoint = "README.md"
-modules = ["nodejs-20"]
+run = "node index.js"
+modules = ["web", "nodejs-20", "nix"]
 
 [nix]
 channel = "stable-23_11"
@@ -12,3 +11,6 @@ externalPort = 3000
 [[ports]]
 localPort = 3001
 externalPort = 80
+
+[deployment]
+run = ["sh", "-c", "node index.js"]

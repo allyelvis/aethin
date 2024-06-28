@@ -1,5 +1,22 @@
 {
   "dependencies": {
     "npm": "^10.8.1"
-  }
+  },
+  "name": "aethin",
+  "version": "1.0.1",
+  "description": "business management software (pos)",
+  "main": "index.html",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "aethin"
+  },
+  "keywords": [
+    "bms"
+  ],
+  "author": "Ally Elvis Nzeyimana",
+  "license": "MIT"
 }
