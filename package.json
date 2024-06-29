@@ -1,12 +1,13 @@
 {
   "dependencies": {
-    "npm": "^10.8.1"
+    "all": "^0.0.0",
+    "npm": "^10.8.1",
+    "replit": "^1.0.0"
   },
   "name": "aethin",
   "version": "1.0.1",
   "description": "business management software (pos)",
   "main": "index.html",
-  "devDependencies": {},
   "scripts": {
     "test": "npm start"
   },
