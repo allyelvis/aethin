@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "all": "^0.0.0",
-    "npm": "^11.3.0",
+    "npm": "^11.6.4",
     "replit": "^1.0.0"
   },
   "name": "aethin",
